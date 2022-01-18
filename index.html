@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<style>
+    .img_container i{
+        display: inline-block;
+        width: 100px;
+        height:100px;
+
+    }
+    .img_container i img{
+        width:100%;
+        height:100%;
+    }
+</style>
+<body>
+
+<header>
+   
+     <nav>
+            <div class="container">
+                <ul class="upper_header">
+                    <li><a href="" id="sign_inbtn"><i><img src="img/man-user.png" alt=""></i> أدخل لحسابك</a> </li>
+                    <li><a href="" id="sign_upbtn"><i><img src="img/man-user.png" alt=""></i>   سجل الان</a> </li>
+                    <li><a href=""><i><img src="img/star.png" alt=""></i>الرئيسية</a> </li>
+                    <li><a href=""><i><img src="img/delivery-time.png" alt=""></i>من نحن </a> </li>
+                    <li><a href=""><i><img src="img/contact.png" alt=""></i>اتصل بنا </a></li>
+                    <li><a href=""><i><img src="img/help.png" alt=""></i>المساعدة</a> </li>
+                    <li><a href=""><i><img src="img/location.png" alt=""></i>سياسة الخصوصية</a> </li>
+                    <li><a href=""><i><img src="img/suadia.png" alt=""></i>اليمن </a> <i></i></li>
+                    <li><a href="">English</a><i><img src="img/translation _2.png" alt=""></i> </li>
+                </ul>  
+            </div>
+            </nav>
+            <div class="container">
+                <div class="lower_header_section">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="البحث"><i class="fas fa-search"></i>
+                    </div>
+                    <div class="shoping_cart">
+                        <i class="fas fa-cart-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+     
+       
+    
+</header>
+<main>
+<div class="container">
+    <div class="curent_offers_container">
+       <div class="heading_containter">
+            <h3>العروض الحالية</h3>
+            <div class="timer_container">
+                <span id="d"></span>
+                <span id="h"></span>
+                <span id="m"></span>
+                <span id="s"></span>
+
+            </div>
+       </div>
+    </div>
+ </div>
+ <!-- categories -->
+   <!--  -->
+    <!-- <div class="container">
+            <aside class="cat-section">
+                <div class="cat_header">
+                    <a href="">الرئيسية</a> <span class="sperator"> /</span>
+                    <a href="">الكتب العربية</a> <span class="sperator"> /</span>
+                    <a href="">كتب إلكترونية</a>
+                </div>
+                <div class="cate_body">
+                    <div class="cat_name">
+                        <i class="fas fa-book-open img_container"></i>
+                        <span class="title">كتب إلكترونية</span>
+                    </div>
+                    <ul>
+                        <div>
+                        <li><a href="">تصفية النتائج</a></li>
+                        <li><a href="">علامة تجارية</a><i class="far fa-minus-square"></i></li>
+                        <li><a href="">السعر</a><i class="far fa-minus-square"></i></li>
+                        <li><a href=""></a></li>
+                        <li><a href="">صيغة الكتاب</a><i class="far fa-minus-square"></i></li>
+                    </div>
+                    </ul>
+                </div>
+    </div>
+ </aside> -->
+ <!-- sign in -->
+ <div class="signin">
+    <div class=" form_container_signin">
+        <i class="close_signin"> <img src="img/close_icon.svg" alt=""></i>
+       <div class="sign_header">
+           <h3>انشاء حساب</h3>
+          
+       </div>
+       <hr>
+       
+        <!--signin -->
+          <!--  -->
+        <form action="">
+
+        <div class="input_containtr"><input type="text">
+            <span class="input_title">البريد الالكتروني</span>
+        </div>
+      
+        <div class="input_containtr"><input type="text">
+            <span class="input_title">كلمة السر</span>
+            <span class="forget">نسيت؟</span>
+        </div>
+        
+        <div class="input_containtr log_in"><button> تسجيل دخول</button></div>
+                                                    
+        
+   </form>
+   <div class="form_footer">
+       <span>لديك حساب؟ </span>
+       <button class="creat_account">  إنشاء حساب جديد</button>
+   </div>
+          
+ </div>
+</div>
+
+<!-- sign up -->
+<div class="signup">
+
+    <div class=" form_container">
+
+       <div class="sign_header">
+           <h3>انشاء حساب</h3>
+          
+       </div>
+       <hr>
+       
+        <!-- sign_up -->
+          <!--  -->
+          <form action="">
+           <div class="number_container">
+               <div class="input_containtr"><input type="text" placeholder="رقم الجوال"></div>
+               <div class="input_containtr">
+                   <span>رمز البلد</span>
+                   <select name="contry_key">
+                       <option value="967">+967</option>
+                       <div><option value="+970" selected>+970<i><img src="" alt=""></i></option></div>
+                       <option value=""></option>
+                   </select>
+                   <i><img src="img/suadia.png" alt=""></i>
+               </div>
+           </div>
+           <div class="valid_notes">سوف نرسل  لك<span> رمز  التحقق عن طريق رسالة نصية</span>  </div>
+             
+                   <div class="input_containtr  input_darker"><input type="text" >
+                   <span class="span_valid_num">ارسال رمز التحقق </span></div>
+               <div class="input_containtr"><input type="text">
+                   <span class="input_title">الاسم الأول</span></div>
+               
+               <div class="input_containtr"><input type="text">
+                   <span class="input_title">اسم العائلة</span>
+               </div>
+               <div class="input_containtr"><input type="text">
+                   <span class="input_title">البريد الالكتروني</span>
+               </div>
+               <div class="input_containtr"><input type="text">
+                   <span class="input_title"> تأكيد البريد الالكتروني</span>
+               </div>
+               <div class="input_containtr"><input type="text">
+                   <span class="input_title">كلمة السر</span>
+               </div>
+               <div class="checkbox_container">
+                   <input type="checkbox" name="policy" value="agree"checked>   أوافق على <span>على الشروط والأحكام</span>  <br>
+                   <input type="checkbox" name="subscribe" value="yes" checked> التسجيل للانضمام للبشرة البردية<br>
+               </div>
+               
+               <div class="input_containtr input_darker"><button> إنشاء حساب</button></div>
+                                                           
+               <div class="form_footer">
+                   <span>لديك حساب؟ </span><a href="">تسجيل الدخول &lt;</a>
+               </div>
+          </form>
+          
+      </div>
+</div>
+<div class="overly">
+   
+ 
+</div>
+</main>
+
+<footer>
+   
+        <div class="upper_footer">
+          <div class="container">
+            <div class="subscribe_srv_abt_container">
+                <div class="subscribe_social_container">
+        
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                        <div class="emial_cont">
+                            <div class="input_cont"> <input type="email" placeholder="ادخل بريدك الالكتروني"> <i class="fas fa-lock"></i></div>
+                            
+                            <button class="btn">اشتراك</button>
+                        </div> 
+                  
+                </div>
+            
+        
+                <div class="custmer_srv_container">
+                    <div class="custmer_srv_container">
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+
+                    </div> 
+                </div>
+                <div class="custmer_srv_container">
+                    <div class="custmer_srv_container">
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+
+                    </div> 
+                </div>
+                <div class="custmer_srv_container">
+                    <div class="custmer_srv_container">
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+
+                    </div> 
+                </div>
+                <div class="custmer_srv_container">
+                    <div class="custmer_srv_container">
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>مبيعات الشركات</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                            <p>الاسئلة المتكررة</p>
+                        <h5 class="footer_heading">انضم الى نشرتنا البريدية</h5>
+                    </div> 
+                </div>
+            </div>
+             <div class="subscribe_srv_abt_container">
+                    <div class="social_links_contianer">
+                        <h5 class="footer_heading">تواصل معنا</h5>
+                        <ul>
+                            <li><a href=""><i><img src="img/face.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/twitter.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/youtube.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/insta.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/linkedin.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/snap.png" alt=""></i></a></li>
+                            <li><a href=""><i> <img src="img/snap.png" alt=""></i></a></li>
+                           
+
+                        </ul> 
+                    </div>
+            </div>
+         
+        </div>
+    </div>
+   
+        <div class="lower_footer_container">
+            <div class="container">
+            <div class="lower_footer">
+            <div class="footer_img_container">
+                <div>  <img src="img/Amazon.jpg" alt=""></div>
+                <div><img src="img/MasterCard.svg" alt=""> </div>
+                <div><img src="img/visa_1.png" alt=""> </div>
+             
+                <div><img src="img/mada.svg" alt=""> </div>
+                <div> <img src="img/qitaf_logo.png" alt=""> </div>
+                <div><img src="img/visa_1.png" alt="">  </div>
+               
+            </div>
+            
+            <div class="footer_copyright_container">
+                <div> <span> سياسة الخصوصية</span> 
+                        <div class="sperator"></div>
+                        <span> شروط الخدمة </span>
+                </div>
+                <div>  .جميع الحقوق محفوظة لمكتبة جرير  &copy 2015. س.ت. 1010032264. اونلاين س.ت. 1010654213</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</footer>
+<script>
+       var close_signin =document.querySelector(".close_signin");
+    var overly=document.querySelector(".overly");
+    var sign_upbtn=document.getElementById("sign_upbtn");
+    var sign_up=document.querySelector(".signup");
+    var sign_in=document.querySelector(".signin");
+    var sign_inbtn=document.getElementById("sign_inbtn");
+    sign_upbtn.onclick=function(){
+	
+    overly.innerHTML=sign_up.innerHTML;
+    overly.style.visibility="visible";
+}
+sign_inbtn.onclick=function(){
+
+overly.innerHTML=sign_in.innerHTML;
+overly.style.visibility="visible";
+}
+console.log(overly.style.visibility);
+close_signin.onclick=function(){ console.log("hello");
+        overly.style.visibility="hidden";
+    
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      var current_date=new Date("jan 18,2022 00:00:00").getTime();
+      console.log(current_date);
+    function counter(){
+        var end_date=new Date('jan 29,2022 00:00:00').getTime();
+        var current_date=new Date().getTime();
+        var remain_time= end_date - current_date;
+        var seconds=1000;
+        var mins= 60 * seconds;
+        var hours= 60 * mins;
+        var days= 24 * hours;
+
+        var remain_days= Math.floor(remain_time/days);
+        var remain_hours= Math.floor((remain_time%days)/hours);
+        var remain_mins= Math.floor((remain_time%hours)/mins);
+        var remain_seconds= Math.floor((remain_time%mins)/seconds);
+        
+        var remain_days_span=document.getElementById("d");
+        remain_days_span.innerHTML=remain_days;
+        var remain_hours_span=document.getElementById("h");
+        remain_hours_span.innerHTML=remain_hours;
+        var remain_mins_span=document.getElementById("m");
+        remain_mins_span.innerHTML=remain_mins;
+        var remain_seconds_span=document.getElementById("s");
+        remain_seconds_span.innerHTML=remain_seconds;
+
+
+    }
+    setInterval(counter,1000);
+
+</script>
+   
+</body>
+
+</html>
